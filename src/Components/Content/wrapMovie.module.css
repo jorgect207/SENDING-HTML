@@ -1,0 +1,16 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #9b8816;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px -1px #716310, 0 1px 1px 0 #716310, 0 1px 3px 0 #716310;
+  color: #fff;
+}
+
+.wrap h2 {
+  font-weight: bold;
+  text-align: center;
+}

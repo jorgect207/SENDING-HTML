@@ -1,0 +1,20 @@
+.top button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #9b8816;
+  box-shadow: 0 2px 1px -1px #716310, 0 1px 1px 0 #716310, 0 1px 3px 0 #716310;
+  margin: 1.3rem auto;
+}
+.top button:active {
+  box-shadow: 0 4px 2px -3px #716310, 0 4px 5px 1px #716310,
+    0 2px 7px 1px #716310;
+}
