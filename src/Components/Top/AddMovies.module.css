@@ -1,0 +1,45 @@
+.add label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.add input,
+.add textarea {
+  display: block;
+  width: 80%;
+  margin: auto;
+  font: inherit;
+  padding: 0.2rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.add input:focus,
+.add textarea:focus {
+  outline: none;
+  border-color: #230052;
+}
+
+.add button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #9b8816;
+  box-shadow: 0 2px 1px -1px #716310, 0 1px 1px 0 #716310, 0 1px 3px 0 #716310;
+  margin: 1.3rem auto;
+}
+.add button:active {
+  box-shadow: 0 4px 2px -3px #716310, 0 4px 5px 1px #716310,
+    0 2px 7px 1px #716310;
+}
